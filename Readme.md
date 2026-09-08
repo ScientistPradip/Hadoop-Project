@@ -65,3 +65,7 @@ Displayed the first 3 lines of the zipcodes.csv file directly from HDFS to verif
 Attempted to download the zipcodes.csv file from HDFS to the local Docker filesystem using the -get command. The command reported that the file already existed locally. The same command can be used on another computer with access to the Hadoop cluster to retrieve a local copy of the dataset.
 
 ![Step 10- Extract inlocal](Images/Step10_Screenshot.png)
+
+
+## Conclusion
+This project provided practical experience in setting up and working with Hadoop and HDFS in a Docker environment. It involved starting Hadoop services, creating and managing HDFS directories, preparing and uploading a dataset, viewing data stored in HDFS, and retrieving files back to the local filesystem. Overall, the project strengthened my understanding of Hadoop, HDFS, Docker, Linux commands, and basic data management.
