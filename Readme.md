@@ -20,7 +20,7 @@ Started the Hadoop environment inside the Docker container to initialize the req
 ### Step 2: Validate the Hadoop Environment
 Verified the Hadoop environment by checking the active Java processes to ensure the required Hadoop services were running successfully.
 
-![Step 2 - Hadoop Services](Images\Step2_Screenshot.png)
+![Step 2 - Hadoop Services](Images/Step2_Screenshot.png)
 
 ### Step 3: Creatre an HDFS Directory
 Created a directory in HDFS to provide a dedicated location for storing and managing project data. Also verifying its successful creation.
@@ -36,5 +36,5 @@ Created and accessed a local data directory inside the Docker container to prepa
 
 ### Step 5: Create a Dataset File
 Created the zipcodes.csv file in the local data directory to prepare the dataset for upload to HDFS.
-![Step 5 - File Dataset](Images\Step5_Screenshot.png)
+![Step 5 - File Dataset](Images/Step5_Screenshot.png)
 
