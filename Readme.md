@@ -36,5 +36,32 @@ Created and accessed a local data directory inside the Docker container to prepa
 
 ### Step 5: Create a Dataset File
 Created the zipcodes.csv file in the local data directory to prepare the dataset for upload to HDFS.
+
 ![Step 5 - File Dataset](Images/Step5_Screenshot.png)
 
+### Step 6: Polulate the Dataset File
+Populated the zipcodes.csv file with the ZIP code dataset to prepare the data for storage and management in HDFS.
+
+![Step 6- Polulate Dataset](Images/Step6_Screenshot.png)
+
+### Step 7: Create the HDFS Data Directory
+Created a dedicated directory within HDFS to organize and store the dataset.
+
+![Step 7- Create HDFS](Images/Step7_Screenshot.png)
+
+### Step 8: Upload the Dataset to HDFS
+
+Uploaded the zipcodes.csv dataset from the local Docker filesystem to the designated directory in HDFS.
+
+![Step 8- Upload toHDFS](Images/Step8_Screenshot.png)
+
+### STEP 9: Inspect the Dataset in HDFS
+Displayed the first 3 lines of the zipcodes.csv file directly from HDFS to verify that the uploaded dataset could be accessed successfully.
+
+![Step 9- Verify inHDFS](Images/Step9_Screenshot.png)
+
+### Step 10: Download the Dataset from HDFS
+
+Attempted to download the zipcodes.csv file from HDFS to the local Docker filesystem using the -get command. The command reported that the file already existed locally. The same command can be used on another computer with access to the Hadoop cluster to retrieve a local copy of the dataset.
+
+![Step 10- Extract inlocal](Images/Step10_Screenshot.png)
